@@ -1,8 +1,10 @@
-title: Haxe Template
+title: HaxeExamples Playground
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
 projects:
   haxe:
     root: /haxe-project
-    runner: haxe:3.4
+    runner:
+      name: haxe
+      version: '3.4'
